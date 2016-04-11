@@ -1,0 +1,19 @@
+<div yne-bulb-block="paragraph"><font face="Microsoft YaHei, 微软雅黑"><span style="white-space: pre-wrap;"><b>VPN-MTU值引起的问题</b>
+
+一、问题概述：
+    解决上次分享的免费VPN后提到MAC和win7以上的系统使用不佳问题。
+
+二、问题分析：</span></font></div><div yne-bulb-block="paragraph"><font face="Microsoft YaHei, 微软雅黑"><span style="white-space: pre-wrap;">    </span></font><span style="font-family: 'Microsoft YaHei', 微软雅黑; white-space: pre-wrap;">MAC和win7以上的系统连接VPN时极其不稳定，导致翻不了墙。</span></div><div yne-bulb-block="paragraph"><span style="font-family: 'Microsoft YaHei', 微软雅黑; white-space: pre-wrap;"><br></span></div><div yne-bulb-block="paragraph"><font face="Microsoft YaHei, 微软雅黑"><span style="white-space: pre-wrap;">三、理论分析：
+    一般所来是由于路径MTU不匹配的缘故，特别是在经过了VPN链路的时候，譬如ADSL、PPPOE拨号、L2TP,PPTP,IPSEC,GRE隧道等情况。
+    MTU(最大传输单元)是网络设备传输的信息包最大值。对于UCOM的设备，最佳的MTU值通常都是默认值。有时，更改MTU值可提高设备工作性能，做起来很简单，但事实上，这样做往往会导致出现其他问题。最好保持MTU不变，除非有以下情况出现：
+
+  当连接不到ISP或者不能使用其他的因特网服务时,且他们的技术支持人员建议更改MTU值 ；
+  当您使用VPN,遇到性能问题时可以考虑更改MTU。
+
+四、各种应用下的最佳MTU值
+设置MTU大小是一个反复试验的过程:由最大值1500开始下降，直至问题解决。使用下列值之一或许能解决一些由MTU值引起的问题 :
+    <b>1500</b>  以太网信息包最大值，也是默认值。是没有 PPPoE 和 VPN 的网络连接的典型设置。
+    <b>1492</b>  PPPoE的最佳值 
+    <b>1472</b>  使用ping的最大值 ( 大于此值的信息包会先被分解 ) 
+    <b>1468</b>  DHCP的最佳值 
+    <font color="#ff0000"><b>1430</b>  VPN和PPTP的最佳值 </font><br></span></font></div><div yne-bulb-block="paragraph"><font face="Microsoft YaHei, 微软雅黑"><span style="white-space: pre-wrap;"><br></span></font></div><div yne-bulb-block="paragraph"><font face="Microsoft YaHei, 微软雅黑"><span style="white-space: pre-wrap;"><b>结果：</b></span></font></div><div yne-bulb-block="paragraph"><font face="Microsoft YaHei, 微软雅黑"><span style="white-space: pre-wrap;">      更改网卡设备的MTU值后VPN可以正常使用了。</span></font></div>
