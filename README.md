@@ -1,1 +1,1 @@
-# [境缘浮影](http://soft.dog/)
+# [境缘浮影](http://jiayang.party/)
