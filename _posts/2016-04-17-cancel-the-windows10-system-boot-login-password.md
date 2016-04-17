@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何取消windows10系统开机登录密码
-categories: linux window jekyll
+categories: windows window10 jekyll
 comments: true
 ---
 
