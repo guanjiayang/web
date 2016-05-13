@@ -20,6 +20,7 @@ comments: true
 在“类型：PPAPI”下方点击启用。
 - **第 2 步：确保 Chrome 是最新版本。 您会在 Chrome 上自动获得 Adobe Flash 播放器，并且这款播放器会随着 Chrome 一起更新。**
 
+
 - **第 3 步：手动更新 Adobe Flash 播放器。**
 
 打开 Chrome。
