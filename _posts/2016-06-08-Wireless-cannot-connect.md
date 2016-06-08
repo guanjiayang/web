@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 解决WLAN无法连接问题
+title: 解决无法连接WLAN问题
 categories: WLAN
 excerpt: wifi 无法连接
 comments: true
