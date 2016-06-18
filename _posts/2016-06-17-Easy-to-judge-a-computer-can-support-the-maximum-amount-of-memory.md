@@ -6,6 +6,20 @@ excerpt: computer maximum memory
 comments: true
 ---
 
+
+方法一：
+直接在网上查询，在存储设备里会有类似说明；
+
+
+        存储设备
+           内存容量     2GB（2GB×1）
+           内存类型     DDR3 1333MHz
+           插槽数量     2xSO-DIMM
+           最大内存容量  8GB 
+
+
+
+
 core i系列跨时代的cpu出现后，内存控制器集成到cpu中，对于内存容量的支持，需要根据cpu型号来确定。
 第一代core i系列cpu：第一部分（双核） ：
 i3-330m i3-350m i3-370m i3-380m i3-390m
