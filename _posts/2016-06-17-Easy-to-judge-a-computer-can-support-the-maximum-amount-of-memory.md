@@ -6,7 +6,7 @@ excerpt: computer maximum memory
 comments: true
 ---
 
-**首先有个建议：鉴于目前1.35V的DDR3L内存便宜，无论新旧平台我们直接购买DDR3L类型内存即可。**
+**首先有个建议：鉴于DDR3L性能与DDR3标压性能上并无明显差异，DDR3L内存便宜，无论新旧平台我们直接购买DDR3L类型内存即可。**
 
 #### 方法一：
 
