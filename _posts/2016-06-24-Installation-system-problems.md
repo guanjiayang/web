@@ -20,16 +20,16 @@ comments: true
 
 - 键入 diskpart 查看磁盘,就会进入
 
-    DISKPART>
+       DISKPART>
 
 - 继续键入list disk
 
-    DISKPART> list disk 
+      DISKPART> list disk 
 
-    磁盘 ###  状态           大小     可用     Dyn  Gpt
-    --------  -------------  -------  -------  ---  ---
-    磁盘 0    联机              298 GB  5120 KB
-    磁盘 1    无介质                0 B      0 B
+      磁盘 ###  状态           大小     可用     Dyn  Gpt
+      --------  -------------  -------  -------  ---  ---
+      磁盘 0    联机              298 GB  5120 KB
+      磁盘 1    无介质                0 B      0 B
 
 可以发现并没有我们的u盘...
 
