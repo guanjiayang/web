@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 盘点组装电脑误区
+title: 盘点组装电脑误区(转)
 categories: 装机
 excerpt: 配置 组装
 comments: true
