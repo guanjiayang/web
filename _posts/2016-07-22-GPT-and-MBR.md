@@ -6,9 +6,9 @@ excerpt: 分区 GPT MBR
 comments: true
 ---
 
-在Windows 8或8.1中设置新磁盘时，系统会询问你是想要使用MBR还是GPT分区。GPT是一种新的标准，并在逐渐取代MBR。
+### 在Windows 8或8.1中设置新磁盘时，系统会询问你是想要使用MBR还是GPT分区。GPT是一种新的标准，并在逐渐取代MBR。
 
-### GPT带来了很多新特性，但MBR仍然拥有最好的兼容性。GPT并不是Windows专用的新标准—— Mac OS X，Linux，及其他操作系统同样使用GPT。
+GPT带来了很多新特性，但MBR仍然拥有最好的兼容性。GPT并不是Windows专用的新标准—— Mac OS X，Linux，及其他操作系统同样使用GPT。
 在使用新磁盘之前，你必须对其进行分区。MBR（Master Boot Record）和GPT（GUID Partition Table）是在磁盘上存储分区信息的两种不同方式。这些分区信息包含了分区从哪里开始的信息，这样操作系统才知道哪个扇区是属于哪个分区的，以及哪个分区是可以启动的。在磁盘上创建分区时，你必须在MBR和GPT之间做出选择。
 
 - MBR的局限性
