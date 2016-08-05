@@ -17,6 +17,8 @@ comments: true
         Password:                     （输入用户登录密码）
         sh-3.2# nano /etc/fstab
         
+---
+        
         GUN nano 2.0.6        File: /etc/fstab
         UUID=`复制你记录的唯一标识` none ntfs rw,auto
         
