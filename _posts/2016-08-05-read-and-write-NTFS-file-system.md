@@ -14,7 +14,7 @@ comments: true
 
         `计算机名`:~ `用户名`$ 
         `计算机名`:~ `用户名`$ sudo su
-        Password:
+        Password:                     （输入用户登录密码）
         sh-3.2# nano /etc/fstab
         
         GUN nano 2.0.6        File: /etc/fstab
