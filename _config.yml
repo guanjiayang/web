@@ -12,7 +12,7 @@ highlighter: rouge
 paginate: 15
 paginate_path: "page:num"
 gems: [jekyll-paginate]
-refurl: "http://csmi.top"  #the base url of the site
+refurl: "http://i-yk.com"  #the base url of the site
 
 # 本地用rouge, github上用pygments
 # highlighter: pygments
