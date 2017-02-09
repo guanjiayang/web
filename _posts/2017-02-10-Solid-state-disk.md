@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 选购固态硬盘
-categories: 系统
-excerpt: SSD 硬盘
+categories: 装机
+excerpt: 硬盘
 comments: true
 ---
 
