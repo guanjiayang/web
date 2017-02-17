@@ -1,1 +1,1 @@
-# [光明小界](http://jiayang.party/)
+# [光明小界](http://i-yk.com/)
