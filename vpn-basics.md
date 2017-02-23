@@ -5,7 +5,7 @@
     <div>VPN通过隧道技术在两个站点间建立一条虚拟的专用线路，使用端到端的认证和加密保证数据的安全性。典型拓扑如下图所示：</div>
     
     
-    !201011411926606.jpg](http://service.tp-link.com.cn/pages/imageuploadfolder/201011411926606.jpg)
+    ![201011411926606.jpg](http://service.tp-link.com.cn/pages/imageuploadfolder/201011411926606.jpg)
     
     
     <div>img border="0" src="http://service.tp-link.com.cn/pages/imageuploadfolder/201011411926606.jpg" </div>
