@@ -11,14 +11,19 @@ VPN(Virtual Private Network, 虚拟专用网络)是一个建立在公用网（�
 隧道指被承载协议的传输通道。
 
 <img src="http://oltn18dzj.bkt.clouddn.com/201011411944901.jpg">
+
 - PPTP
       点对点隧道协议，是在PPP协议的基础上开发的一种新的增强型安全协议，可以使远程用户安全方便的访问企业网络。PPTP属于二层隧道协议。
 - L2TP
       二层隧道协议（L2TP(Layer 2 Tunneling Protocol），是由IETF起草，微软、Cisco等公司参予制定的二层隧道协议。
 PPTP与L2TP区别：
+
 <img src="http://oltn18dzj.bkt.clouddn.com/201011411106487.jpg">
+
     PPTP与L2TP适用于经常有流动人员远程办公的环境，出差员工利用Internet可以很方便的和公司的VPN网关建立私有的隧道连接。PPTP、L2TP提供认证加密功能，可提高网络的安全性。如下图所示，出差员工通过PPTP VPN连接至总部网络。
+    
 <img src="http://oltn18dzj.bkt.clouddn.com/2010114111032543.jpg">
+
 - IPsec VPN
       IPsec（IP安全）是一系列服务和协议的集合，是由IETF制定的三层隧道加密协议，它为Internet上数据的传输提供了高质量的、可互操作的、基于密码学的安全保证。特定的通信方之间在IP层通过加密与数据源认证等方式，可以保证双方数据的完整性与机密性。
 数据完整性：IPSec接收方对发送方发送来的包进行认证，以确保数据的完整性。
@@ -52,4 +57,5 @@ IKE为IPSec提供自动协商交换密钥、建立和维护SA的服务，以简�
 DH（Diffie-Hellman）交换及密钥分发 ：Diffie-Hellman 算法是以蒂夫-海曼的名字命名的一种公共密钥算法。通信双方在不传送密钥的情况下通过交换一些数据，计算出共享的密钥。加密的前提是交换加密数据的双方必须要有共享的密钥。
 PFS（Perfect Forward Secrecy）完善的前向安全性： PFS特性是一种安全特性，由于密钥间没有派生关系，即使一个密钥被破解，并不影响其他密钥的安全性。
 IPSec主要用在站点到站点（分支结构到分支机构）的方案中。如下图，总部与分支机构各部署一台VPN网关，做好相应配置后，分支机构与总部的内网间可实现透明互访，又可保证通信的安全性。
+
 <img src="http://oltn18dzj.bkt.clouddn.com/2010114111056838.jpg">
