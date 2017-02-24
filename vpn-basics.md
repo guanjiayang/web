@@ -59,3 +59,4 @@ PFS（Perfect Forward Secrecy）完善的前向安全性： PFS特性是一种�
 IPSec主要用在站点到站点（分支结构到分支机构）的方案中。如下图，总部与分支机构各部署一台VPN网关，做好相应配置后，分支机构与总部的内网间可实现透明互访，又可保证通信的安全性。
 
 <img src="http://oltn18dzj.bkt.clouddn.com/2010114111056838.jpg">
+ 『整理于TP服务支持』
