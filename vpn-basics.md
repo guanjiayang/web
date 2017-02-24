@@ -20,7 +20,7 @@ PPTP与L2TP区别：
 
 <img src="http://oltn18dzj.bkt.clouddn.com/201011411106487.jpg">
 
-    PPTP与L2TP适用于经常有流动人员远程办公的环境，出差员工利用Internet可以很方便的和公司的VPN网关建立私有的隧道连接。PPTP、L2TP提供认证加密功能，可提高网络的安全性。如下图所示，出差员工通过PPTP VPN连接至总部网络。
+   PPTP与L2TP适用于经常有流动人员远程办公的环境，出差员工利用Internet可以很方便的和公司的VPN网关建立私有的隧道连接。PPTP、L2TP提供认证加密功能，可提高网络的安全性。如下图所示，出差员工通过PPTP VPN连接至总部网络。
     
 <img src="http://oltn18dzj.bkt.clouddn.com/2010114111032543.jpg">
 
@@ -59,4 +59,5 @@ PFS（Perfect Forward Secrecy）完善的前向安全性： PFS特性是一种�
 IPSec主要用在站点到站点（分支结构到分支机构）的方案中。如下图，总部与分支机构各部署一台VPN网关，做好相应配置后，分支机构与总部的内网间可实现透明互访，又可保证通信的安全性。
 
 <img src="http://oltn18dzj.bkt.clouddn.com/2010114111056838.jpg">
+
  『整理于TP服务支持』
