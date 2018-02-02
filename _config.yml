@@ -21,3 +21,5 @@ refurl: "http://csmi.top"  #the base url of the site
 # baseurl: ""  #the subpath of the site, e.g. /blog/
 # url: "http://yourdomain.com"  #the base url of the site
 # twitter_username:
+
+theme: jekyll-theme-slate
